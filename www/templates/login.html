@@ -1,0 +1,25 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Login</h1>
+  </ion-header-bar>
+  <ion-content class="login">
+    <img src= "../img/login.png"  alt="logo">
+    <form ng-submit="doLogin()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Nome</span>
+          <input type="text" ng-model="loginData.username">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Email</span>
+          <input type="password" ng-model="loginData.password">
+        </label>
+        <div class="row">
+      <div class="col">
+          <button class="button button-positive" type="submit">Acessar</button>
+        </label>
+      </div>
+    </div>
+    </form>
+  </ion-content>
+</ion-modal-view>

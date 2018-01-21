@@ -1,0 +1,34 @@
+/* Empty. Add your own CSS if you like */
+.login{
+  background: linear-gradient(#538aa0, #6bb2ce);
+  padding-top: 100px;
+}
+
+h4{
+  text-align: center;
+  padding: 20px;
+  color: #183299;
+  
+}
+
+.login img{
+  width: 30%;
+  margin: auto;
+  display: block;
+}
+
+.list button{
+  width: 30%;
+  margin: auto;
+  display: block;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.list-inset{
+  background-color: transparent;
+}
+
+.item-input{
+  margin-top: 10px;
+border-radius: 5px;
+}
